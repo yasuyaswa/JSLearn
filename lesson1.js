@@ -16,7 +16,7 @@ console.log(`${y} Morning, ${z}`);
 //let k = 2 but can't redeclare let and cons
 
 
-var student = { yaswanth: 23, vinod: 22, umesh: 22 };
+var student = { yaswanth: 23, vinod: 23, umesh: 22 };
 for (item in student) {
   console.log(item + ": " + student[item]);
 }
