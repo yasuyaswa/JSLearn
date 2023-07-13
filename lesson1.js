@@ -14,7 +14,6 @@ var z = "Yaswanth";
 console.log(y + " Morning, " + z);
 console.log(`${y} Morning, ${z}`);
 //let k = 2 but can't redeclare let and cons
-//myf();
 
 
 var student = { yaswanth: 23, vinod: 22, umesh: 22 };
