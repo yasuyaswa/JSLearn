@@ -2,6 +2,7 @@ var vehicles = ["car", "bus", "van", "lorry"];
 var json = JSON.stringify(vehicles);
 console.log(json);
 vehicles.push("bike");
+vehicles.push("jeep")
 vehicles.pop();
 vehicles.unshift("bike");
 vehicles.shift();
