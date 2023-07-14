@@ -5,7 +5,7 @@ console.log(s[s.length - 1]);
 var b = 2; // we can redeclare var
 let k = 4;
 let n = "4";
-console.log(k ===n);
+console.log(k === n);
 console.log(s + b);
 console.log(++b);
 console.log(b++);
@@ -14,7 +14,6 @@ var z = "Yaswanth";
 console.log(y + " Morning, " + z);
 console.log(`${y} Morning, ${z}`);
 //let k = 2 but can't redeclare let and cons
-
 
 var student = { yaswanth: 23, vinod: 23, umesh: 22 };
 for (item in student) {
@@ -44,4 +43,4 @@ console.log(q === i);
 
 var jk = 12;
 console.log("🚀 ~ file: lesson1.js:68 ~ jk:", jk);
-var gate = "northeast"
+var gate = "northeast";
