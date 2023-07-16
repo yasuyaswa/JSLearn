@@ -15,10 +15,7 @@ console.log(y + " Morning, " + z);
 console.log(`${y} Morning, ${z}`);
 //let k = 2 but can't redeclare let and cons
 
-var student = { yaswanth: 23, vinod: 23, umesh: 22 };
-for (item in student) {
-  console.log(item + ": " + student[item]);
-}
+
 mul(2, 3);
 function mul(n1, n2) {
   console.log(n1 + n2);
