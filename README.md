@@ -1,3 +1,4 @@
 # JSLearn
 for learning and practicing Javascript
-I followed suboji vinay notes and youtube video (https://youtu.be/PkZNo7MFNFg)
+
+I followed Suboji Vinay notes and youtube video (https://youtu.be/PkZNo7MFNFg)
