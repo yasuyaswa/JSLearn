@@ -18,11 +18,34 @@ var person = [
     salary: 28000,
   },
 ];
-console.log(person.name);
-console.log(person["gender"]);
-delete person.salary;
-console.log(person);
 
+console.log("Person 1 Name: "+ person[0].name);
+// delete person.salary;
+
+process.stdout.write("person: ");
+console.log(person);
+let employee = { name: "kiran", salary: 23434}
+let person5 = Object.create(employee);
+console.log(person5);
+person5.name ="John";
+person5.salary =70000
+console.log(person5);
+ var goal = {
+  name : "Jonnnnn",
+  age : 28
+ }
+
+ var p = Object.create(goal);
+ console.log(p);
+
+let person6 = Object.create(goal,{
+  name: {
+    value: "Ravi"
+  }
+});
+
+console.log(person6);
+console.log('print');
 function person1(name, gender, age, salary) {
   this.name = name;
   this.gender = gender;
