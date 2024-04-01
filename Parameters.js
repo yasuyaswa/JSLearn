@@ -15,3 +15,12 @@ function sum(n1,n2,...args){
     return total;
 }
 console.log(sum(1,2,3,4));
+
+function sum1(...args){
+    let total=0;
+    for(items of args){
+        total+=items;
+    }
+    return total;
+}
+console.log(sum1(1,2,3,4));

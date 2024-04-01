@@ -18,12 +18,12 @@ console.log(`${y} Morning, ${z}`);
 
 mul(2, 3);
 function mul(n1, n2) {
-  console.log(n1 + n2);
+  console.log(n1 * n2);
 }
 //product(2,3)
-var even = (n1, n2, ...n) => n1 + n2 + n;
-console.log(even(3, 5, 6));
-console.log('Hi, "Bangloru"');
+var details = (name, ...n) => console.log(name + " "+ n);
+details('Yaswanth', 24, 'Capgemini', '.NET Core');
+console.log('Hi, "Bangalore"');
 console.log(`'I joined in "Capgemini"'`);
 var g = "first line\n\t\\seco\bnd line\nthird line";
 console.log(g);

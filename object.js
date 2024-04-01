@@ -86,7 +86,7 @@ console.log(vehicles.car.model.wheels);
 console.log(vehicles.car.model["color of vehicle"]);
 
 var plants = [
-  { type: "flowers", list: ["rose", "sunflower", "jasminee", "lotus"] },
+  { type: "flowers", list: ["rose", "sunflower", "jasmine", "lotus"] },
   { type: "fruits", list: ["apple", "banana", "mango", "grape"] },
 ];
 

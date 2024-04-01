@@ -14,5 +14,5 @@ console.log(typeof k);
 
 k=Number(k); //explicit coercion
 
-console.log(k+4); //9
-
+console.log(k=k+4); //9
+console.log(typeof(k));

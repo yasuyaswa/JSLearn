@@ -1,4 +1,4 @@
-//named funtion
+//named function
 function add(n1, n2) {
   return n1 + n2;
 }
@@ -11,7 +11,7 @@ var product = function (n1, n2) {
 };
 product(2, 3);
 
-//IIFE funtion
+//IIFE function
 var quotient = function division(n1, n2) {
   return n1 / n2;
 };
