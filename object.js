@@ -1,3 +1,5 @@
+const { layer } = require("@fortawesome/fontawesome-svg-core");
+
 var person = [
   {
     name: "Yaswanth",
@@ -91,3 +93,15 @@ var plants = [
 ];
 
 console.log(plants[1].list[0]);
+
+var nestedObjects = {
+  layer1: {
+    layer2: {
+      layer3:{
+        color: 'red',
+      }
+    }
+  }
+}
+
+console.log(nestedObjects.layer1.layer2.layer3.color)

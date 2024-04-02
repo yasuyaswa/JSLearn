@@ -7,6 +7,8 @@ vehicles.pop();
 vehicles.unshift("bike");
 vehicles.shift();
 console.log(vehicles.slice(1, 3));
+console.log("Reverse");
+console.log(vehicles.reverse());
 
 for (item in vehicles) {
   console.log(vehicles[item]);
